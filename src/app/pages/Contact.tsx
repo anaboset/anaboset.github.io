@@ -40,10 +40,10 @@ export function Contact() {
     try {
       // 3. Send using your official EmailJS service dashboard parameters
       await emailjs.send(
-        'YOUR_SERVICE_ID',     // Replace with your Service ID
-        'YOUR_TEMPLATE_ID',    // Replace with your Template ID
+        'service_ix9etsq',     // Replace with your Service ID
+        'template_1cha38d',    // Replace with your Template ID
         templateParams,
-        'YOUR_PUBLIC_KEY'      // Replace with your Account Public Key
+        '3Q_Vf6N7pPGEjUCSx'      // Replace with your Account Public Key
       );
 
       alert('Thank you for reaching out! Your message has been safely delivered.');
@@ -233,7 +233,7 @@ export function Contact() {
                 <div className="py-2 flex justify-center md:justify-start">
                   <ReCAPTCHA
                     ref={recaptchaRef}
-                    sitekey="YOUR_GOOGLE_RECAPTCHA_SITE_KEY" // Paste your Google Site Key here directly
+                    sitekey="6LeDYwQtAAAAAFo0t75C0iXKfFRJfnMypbrhCJqJ" // Paste your Google Site Key here directly
                   />
                 </div>
 
