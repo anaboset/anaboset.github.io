@@ -5,14 +5,14 @@ export function Projects() {
   const projects = [{
       title: 'CardioSentinel MAS',
       description: 'Multi-agent AI system for cardiovascular care planning, risk assessment, and patient adherence using clinical tools.',
-      image: 'images/cardiosentinel_mas.gif',
+      image: '/images/cardiosentinel_mas.gif',
       tags: ['Python', 'Pydantic', 'LangSmith', 'LangGraph'],
       github: 'https://github.com/anaboset/cardiosentinel_mas',
     },
     {
       title: 'PharmaTriage',
       description: 'Automatic classification, clinical prioritization, and department routing of pharmacy support tickets.',
-      image: 'images/pharm_triage.gif',
+      image: '/images/pharm_triage.gif',
       tags: ['NLP', 'TF-IDF', 'Logistic Regression', 'Seaborn'],
       github: 'https://github.com/anaboset/PharmaTriage',
       live: 'https://pharmatriage.streamlit.app/',
@@ -20,7 +20,7 @@ export function Projects() {
     {
       title: 'ResumeIQ',
       description: 'ML-powered resume screening that scores and ranks candidates using 3-signal ensemble (semantic similarity, skill matching, & experience).',
-      image: 'images/resumeiq.gif',
+      image: '/images/resumeiq.gif',
       tags: ['NLTK', 'spaCy', 'Docker', 'NumPy'],
       github: 'https://github.com/anaboset/ResumeIQ',
       live: 'https://anaresumeiq.streamlit.app/',
@@ -28,14 +28,14 @@ export function Projects() {
     {
       title: 'CardioSentinel RAG',
       description: 'AI System for Guideline-Aligned Cardiovascular Disease Management.',
-      image: 'images/Cardiosentinel_rag.gif',
+      image: '/images/Cardiosentinel_rag.gif',
       tags: ['Python', 'LangChain', 'ChromaDB', 'Neo4j'],
       github: 'https://github.com/anaboset/CardioSentinel',
     },
     {
       title: 'AskEFDA',
       description: 'Interactive RAG application to query EFDA medical guidelines for medicine registration, import, and export regulations.',
-      image: 'images/askefda1.gif',
+      image: '/images/askefda1.gif',
       tags: ['LangChain', 'BM25', 'FAISS', 'Streamlit'],
       github: 'https://github.com/anaboset/AskEFDA',
       live: 'https://medical-rag-assistant-ana.streamlit.app/',
@@ -43,7 +43,7 @@ export function Projects() {
     {
       title: 'PharmaCast',
       description: 'An ML forecasting project that predicts pharmaceutical demand from 6 years of daily sales data.',
-      image: 'images/pharm_cast.png',
+      image: '/images/pharm_cast.png',
       tags: ['Scikit-learn', 'Pandas', 'Matplotlib'],
       github: 'https://github.com/anaboset/PharmaCast',
     },
@@ -51,7 +51,7 @@ export function Projects() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-20">
+    <div className="min-h-screen pt-34 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

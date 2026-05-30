@@ -26,7 +26,7 @@ export function About() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-20">
+    <div className="min-h-screen pt-34 pb-26">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -50,7 +50,7 @@ export function About() {
           >
             <div className="rounded-2xl w-110 h-80 overflow-hidden shadow-xl">
               <img
-                src="images/workplace.png"
+                src="/images/workplace.png"
                 alt="Developer at work"
                 className="w-full h-full object-cover"
               />
@@ -83,7 +83,7 @@ export function About() {
         </div>
 
         {/* Values */}
-        <div className="mt-20">
+        <div className="mt-34" >
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

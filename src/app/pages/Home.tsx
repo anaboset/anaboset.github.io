@@ -12,28 +12,28 @@ export function Home() {
           <div className="flex items-center gap-5">
             <a href="https://app.readytensor.ai/users/anawakeyo" target="_blank" rel="noopener noreferrer">
               <img 
-                src="certificates/badge4.avif" 
+                src="/certificates/badge4.avif" 
                 alt="Badge 4" 
                 className="h-auto w-auto" 
               />
             </a>
             <a href="https://app.readytensor.ai/users/anawakeyo" target="_blank" rel="noopener noreferrer">
               <img 
-                src="certificates/badge1.avif" 
+                src="/certificates/badge1.avif" 
                 alt="Badge 1" 
                 className="h-auto w-auto" 
               />
             </a>
             <a href="https://app.readytensor.ai/users/anawakeyo" target="_blank" rel="noopener noreferrer">
               <img 
-                src="certificates/badge2.avif" 
+                src="/certificates/badge2.avif" 
                 alt="Badge 2" 
                 className="h-auto w-auto" 
               />
             </a>
             <a href="https://app.readytensor.ai/users/anawakeyo" target="_blank" rel="noopener noreferrer">
               <img 
-                src="certificates/badge3.avif" 
+                src="/certificates/badge3.avif" 
                 alt="Badge 3" 
                 className="h-auto w-auto " 
               />
@@ -113,7 +113,7 @@ export function Home() {
                   className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-shadow text-gray-700 hover:text-teal-600"
                 >
                   <img 
-                    src="images/readytensor.png" 
+                    src="/images/readytensor.png" 
                     alt="ReadyTensor" 
                     className="size-6 object-contain"
                   />
@@ -128,7 +128,7 @@ export function Home() {
             >
               <div className="rounded-2xl overflow-hidden w-110 h-110 shadow-2xl">
                 <img
-                  src="images/ana1.jpg"
+                  src="/images/ana1.jpg"
                   alt="Modern workspace"
                   className="w-full h-auto object-cover"
                 />

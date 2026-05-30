@@ -86,7 +86,7 @@ export function Contact() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-20">
+    <div className="min-h-screen pt-34 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -224,7 +224,7 @@ export function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    rows={6}
+                    rows={4}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
                     placeholder="Tell me more about your idea, opportunity, or message..."
                   />

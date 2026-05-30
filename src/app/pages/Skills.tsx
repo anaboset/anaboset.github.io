@@ -51,7 +51,7 @@ export function Skills() {
         'Model Context Protocol',
         'Evaluation & Monitoring Frameworks',
       ],
-      link: 'certificates/ready2.png',
+      link: '/certificates/ready2.png',
     },
     {
       title: 'RAG Systems Expert',
@@ -62,7 +62,7 @@ export function Skills() {
         'Embeddings & Retrieval Techniques',
         'RAG System Evaluation & Deployment',
       ],
-      link: 'certificates/ready.png',
+      link: '/certificates/ready.png',
     },
     {
       title: 'AI Agents Fundamentals',
@@ -73,7 +73,7 @@ export function Skills() {
         'AI Agent Libraries',
         'Agentic RAG',
       ],
-      link: 'certificates/agents_fundamentals.webp',
+      link: '/certificates/agents_fundamentals.webp',
     },
     {
       title: 'RAG & AI Systems Master',
@@ -84,7 +84,7 @@ export function Skills() {
         'Workflow Automation',
         'System Safety & Security',
       ],
-      link: 'certificates/nsk.png',
+      link: '/certificates/nsk.png',
     },
     {
       title: 'AI Fundamentals',
@@ -95,7 +95,7 @@ export function Skills() {
         'Ethical AI',
         'Python Programming for AI',
       ],
-      link: 'certificates/AI_fundamentals.png',
+      link: '/certificates/AI_fundamentals.png',
     },
     {
       title: 'Programming Fundamentals',
@@ -106,7 +106,7 @@ export function Skills() {
         'JavaScript',
         'Programming Logic',
       ],
-      link: 'certificates/Programming_fundamentals.png',
+      link: '/certificates/Programming_fundamentals.png',
     },
     {
       title: 'Leadership',
@@ -117,12 +117,12 @@ export function Skills() {
         'Student Club Leadership & Development',
         'Public Speaking & Communication',
       ],
-      link: 'certificates/epsa.jpg',
+      link: '/certificates/epsa.jpg',
     },
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-20">
+    <div className="min-h-screen pt-34 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
