@@ -58,7 +58,7 @@ export function Home() {
                 <br />
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                AI Engineer & Pharmacy Student
+                AI Engineer
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
