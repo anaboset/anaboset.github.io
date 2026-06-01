@@ -43,7 +43,7 @@ export function Projects() {
     {
       title: 'PharmaCast',
       description: 'An ML forecasting project that predicts pharmaceutical demand from 6 years of daily sales data.',
-      image: '/images/pharm_cast.gif',
+      image: '/images/pharma_cast.gif',
       tags: ['Scikit-learn', 'Pandas', 'Matplotlib'],
       github: 'https://github.com/anaboset/PharmaCast',
     },
